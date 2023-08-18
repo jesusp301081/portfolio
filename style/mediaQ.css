@@ -1,0 +1,206 @@
+/************************************** desktop ********************************************/
+
+/* *************************************media 1360-768*************************************/
+@media screen and (max-width:1361px) {
+    html {
+        font-size: 14px;
+    }
+    .experience-tittle-container{
+        margin-top:20px ;
+    }
+    .experience{
+        height: 90%;
+    }
+    .content-container h4{
+        font-size: 2.2rem;
+    }
+    
+    .content-container p{
+        font-size: 1.5rem;
+    }
+}
+/* *********************************768 1360*********************************************** */
+@media screen and(max-height: 1361px){
+
+}
+
+
+/************************************* media 1280-768 **************************************/
+@media screen and (max-width:1281px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+/************************************ media 1176-664 ***************************************/
+@media screen and (max-width: 1177px) {
+    html {
+        font-size: 12px;
+    }
+    .experience{
+        width: 70%;
+        margin-top: 5%;
+    }
+}
+
+
+
+
+
+/******************************************** tablets ******************************************/
+
+
+
+
+
+
+
+
+/*********************************** media 1024-768 *****************************************/
+@media screen and (max-width:1025px) {
+    html {
+        font-size: 11px;
+    }
+    .about-cont{
+        min-height: 75vh;
+    }
+    .cont{
+        height: 75vh;
+    }
+    .about_inf_title{
+        font-size: 1.1rem;
+    }
+    
+    .about_inf_title p{
+        font-size: 1.1rem;
+    }
+    .Portfolio{
+        grid-template-rows: repeat(auto-fill, minmax(15rem, 0.7fr));
+    }
+    .content-container h4{
+        font-size: 2rem;
+    }
+    
+    .content-container p{
+        font-size: 1.2rem;
+    }
+    .hero_div1{
+        margin-top: 35%;
+    }
+    .hero_div2{
+        margin-top: 25%;
+    }
+    
+}
+
+/* ******************768px 600px******************** */
+@media screen and (max-width: 769px) {
+    html{
+        font-size: 8.5px;
+    }
+    .about_title h2{
+        font-size: 3rem;
+    }
+    .about_title p{
+        width: 80%;
+        font-size: 1.6rem;
+    }
+    
+    .about_inf_title{
+        font-size: 0.9rem;
+    }
+    
+    .about_inf_title p{
+        font-size: 0.9rem;
+    }
+}
+/* *************************************media 992px 768px**************************************/
+
+@media screen and (max-width: 992px){
+    /* header*/
+    html {
+        font-size: 10px;
+    }
+
+    #menu_logo_container{
+        display: none;
+    }
+
+    /*nav */
+    #nav_c{
+        position: fixed;
+        bottom: -700%;
+        left: 18%;
+        width: 65%;
+        background: linear-gradient(135deg, rgba(37, 36, 36, 0.938), rgba(53, 49, 49, 0.603));
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur()20px;
+        border-radius: 15px;
+        box-shadow: 0.5px 0.5px 5px rgba(48, 45, 45, 0.575);
+        border: 1px solid rgba(255,255, 255, 0.18);
+        height: 4rem;
+    }
+    .about_inf_title{
+        font-size: 1rem;
+    }
+    
+    .about_inf_title p{
+        font-size: 1rem;
+    }
+    .nav_menu_icon{
+        visibility: visible;
+    }
+    .hero_div1{
+        margin-top: 35%;
+    }
+    .hero_div2{
+        margin-top: 25%;
+    }
+}
+
+
+    /* ***************************mediaQuery 600px******************** */
+    @media screen and (max-width: 600px){
+
+
+    /* *************************************** nav ****************************** */
+    #nav_container{
+        height: 30px;
+        width: 35%;
+        display: flex;
+    }
+    #nav_menu_container{
+        display: flex;
+    }
+    #darkmode_logo{
+        height: 1.2rem;
+    }
+    .nav_list img{
+        height: 0.7rem;
+    }
+    .logo_header :nth-child(3){
+        color: aliceblue;
+        font-size: 1.8rem;
+    }
+    .logo_header :first-child ,.logo_header :last-child{
+        color: var(--color_main_font);
+        font-size: 1.2rem;
+    }
+    .logo_header :nth-child(2) ,.logo_header :nth-child(4){
+        color: rgb(233, 168, 5);
+        font-size: 1.5rem;
+    }
+/* *****************************************hero********************** */
+    .hero_div1{
+        justify-content: center;
+    }
+    .hero_div1 p{
+        font-size: 0.8rem;
+    }
+    .hero_div1 h2{
+        font-size: 1rem;
+    }
+    .hero_div1 h3{
+        font-size: 0.5rem;
+    }
+}

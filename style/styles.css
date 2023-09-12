@@ -20,7 +20,7 @@
     width: 100%;
     color: var(--color_main_font);
     overflow-x: hidden;
-    background:fixed url(/portfolio/img/background.jpg);
+    background:fixed url(/img/background.jpg);
     background-size:cover;
     font-family: 'Agdasima', sans-serif;
 }
@@ -335,7 +335,7 @@
     align-items: center;
     justify-content: space-evenly;
     height: 80%;
-    width: 80%;
+    width: 65%;
     background-color: hsla(50, 96%, 48%, 0.781);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(20px);
@@ -408,7 +408,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-
 }
 .title-container{
     height: 20vh;
@@ -440,7 +439,7 @@
 .experience{
     margin: 0 auto;
     margin-bottom: 10%;
-    height: 70%;
+    height:100%;
     width: 80%;
     border-radius: 20px;
     display: flex;
@@ -465,7 +464,7 @@
 }
 
 .experience-content-container{
-    height: 70%;
+    height: 60%;
     width: 90%;
     display: flex;
     justify-content: space-around;
@@ -599,8 +598,7 @@
 /* carrusel */
 .Portfolio{
     width: 100%;
-    /* min-height: 90vh; */ /*change if add more works*/
-    min-height: 50vh;
+    min-height: 90vh;
     display: grid;
     grid-template-rows: repeat(auto-fill, minmax(15rem, 1fr));
     gap: 80px;
@@ -612,7 +610,7 @@
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-columns: 35% 50%;
+    grid-template-columns:  40% 45%;
     gap: 100px;
 }
 .works2{
@@ -621,9 +619,11 @@
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-columns: 53% 30%;
+    grid-template-columns: 45% 40%;
     gap: 100px;
 }
+
+
 .works-img-container{
     display: flex;
     justify-content: center;
@@ -638,6 +638,16 @@
     height: 100%;
     border-radius: 20px;
 }
+.works-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 8px 8px 5px black;
+}
+
 .content-container{
     height: 100%;
     width: 100%;
@@ -699,8 +709,14 @@
 .contact-inf{
     display: flex;
     flex-direction: column;
-    font-size: 1.2rem;
     margin-left: 20%;
+}
+.contact-inf h5{
+    font-size: 1.8rem;
+    color: hsla(50, 96%, 48%, 0.992);
+}
+.contact-inf p{
+    font-size: 1.5rem;
 }
 .contact-form{
     grid-column-start: 2;
